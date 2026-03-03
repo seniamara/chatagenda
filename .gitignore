@@ -1,0 +1,75 @@
+# Flutter/Dart
+.dart_tool/
+build/
+*.dart.js
+*.dart.js.map
+*.dart.js.deps
+*.dart.js.deps.map
+*.info.json
+*.packages
+*.vm.json
+.packages
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/package_config.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# Android
+android/
+**/android/app/build/
+**/android/.gradle/
+**/android/local.properties
+**/android/.idea/
+**/android/*.iml
+**/android/.settings
+**/android/.classpath
+**/android/.project
+
+# iOS
+ios/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Flutter.framework/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace/
+**/ios/Runner.xcodeproj/project.xcworkspace/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+macos/
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Web
+web/
+**/web/index.html
+**/web/favicon.png
+**/web/icons/
+
+# Windows
+windows/
+**/windows/Flutter/ephemeral/
+**/windows/runner/cmake_install.cmake
+
+# Linux
+linux/
+**/linux/flutter/ephemeral/
+
+# Firebase
+**/firebase.json
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Test
+test/.test_coverage.dart
+test/*_test.dart
