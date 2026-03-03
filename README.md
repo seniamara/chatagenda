@@ -193,8 +193,8 @@ flutter run
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
 
-
-## 📞 Contato
+```
+### 📞 Contato
 
 **Desenvolvedor:** seniamara Benedito
 - 📧 Email: seniamaraa@gmail.com
