@@ -51,10 +51,8 @@ class _SplashScreenState extends State<SplashScreen>
         // Verificar se o GetX está pronto para navegação
         if (Get.key != null && Get.context != null) {
           if (_authController.isLogged.value) {
-            print('🚀 Splash: Usuário logado, indo para Home');
             Get.offAll(() => const HomeScreen());
           } else {
-            print('🚀 Splash: Usuário não logado, indo para Login');
             Get.offAll(() => const LoginScreen());
           }
         } else {
